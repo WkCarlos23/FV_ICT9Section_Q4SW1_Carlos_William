@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<style>
+
+		body {
+			background-color: #BAFFC0;
+		}
+
+		hr {
+ 			 border: none;
+  			 height: 1px;
+  			 background-color: black;
+			}
+
+		#title {
+			font-family: veranda;
+			letter-spacing: 15px;
+		}
+
+	</style>
+
+	<title>200</title>
+</head>
+<body>
+
+
+<br>
+<h1 align="center" id="title">Unit Converter $</h1>
+<br>
+
+<table align="center" border="4" cellpadding="50px" >
+
+	<tr align="center">
+		<td>
+			<h1 class='text-warning'>PHP 500</h1>
+				<hr>
+			<img src="https://cdn-icons-png.flaticon.com/512/4966/4966321.png" align="center" height="100" width="100">
+				<hr>
+
+			<p id="answer"></p>
+			<script type="text/javascript">
+
+			let a, b, c;
+
+			a=500; // this is the amount of money //
+			b=56;  // this is the conversion rate //
+			c= a/b; // this is answer //
+
+				document.getElementById("answer").innerHTML = "<h1 class='text-warning'>" + c + "</h1>";
+
+			</script>
+
+			<a class="btn btn-danger" href="index.html" role="button">Return</a>
+
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
